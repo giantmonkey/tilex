@@ -1,1 +1,1 @@
-web: MIX_ENV=prod mix elixir --sname til-gm -S phx.server
+web: MIX_ENV=prod elixir --sname til-gm -S mix phx.server

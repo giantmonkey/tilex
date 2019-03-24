@@ -152,3 +152,5 @@ Tilex is supported by the team at [Hashrocket, a multidisciplinary design and
 development consultancy](https://hashrocket.com). If you'd like to [work with
 us](https://hashrocket.com/contact-us/hire-us) or [join our
 team](https://hashrocket.com/contact-us/jobs), don't hesitate to get in touch.
+
+ping

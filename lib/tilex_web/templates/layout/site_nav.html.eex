@@ -20,7 +20,7 @@
               <%= link("/#{Application.get_env(:tilex, :default_twitter_handle)}", to: "https://twitter.com/#{Application.get_env(:tilex, :default_twitter_handle)}", class: "social_twitter") %>
             </li>
             <li>
-              <%= link("/hashrocket/tilex", to: "https://github.com/hashrocket/tilex", class: "social_github") %>
+              <%= link("Giant Monkey GmbH", to: "https://giantmonkey.de") %>
             </li>
           </ul>
         </div>

@@ -13,14 +13,8 @@
       <%= link("?", to: "#", class: "site_nav__link", aria_label: "About TIL") %>
       <div class="site_nav__toggle">
         <div class="copy">
-          Today I Learned is an open-source project by
-          <a href="https://hashrocket.com">
-            Hashrocket
-          </a>
-          that exists to catalogue the sharing & accumulation of knowledge
-          as it happens day-to-day. Posts have a 200-word limit, and
-          posting is open to any Rocketeer as well as selected friends of
-          Hashrocket. We hope you enjoy learning along with us.
+          This "Today I Learned" is a knowledge sharing hub for the coders at <a href="https://giantmonkey.de">Giant Monkey</a>
+          It's based on the open-source project by <a href="https://hashrocket.com">Hashrocket</a>
           <ul class="social">
             <li>
               <%= link("/#{Application.get_env(:tilex, :default_twitter_handle)}", to: "https://twitter.com/#{Application.get_env(:tilex, :default_twitter_handle)}", class: "social_twitter") %>

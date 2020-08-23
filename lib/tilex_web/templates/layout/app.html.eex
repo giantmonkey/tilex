@@ -73,10 +73,7 @@
       <div>
         <h1><%= link("Today I Learned", to: post_path(@conn, :index)) %></h1>
         <h2>
-          <a href="https://hashrocket.com" class="hr">A Hashrocket project</a>
-          <span>
-            <a href="https://twitter.com/<%= Application.get_env(:tilex, :default_twitter_handle)%>" class="twitter">Follow on Twitter</a>
-          </span>
+          <a href="https://giantmonkey.de" class="hr">Giant Monkeys Learning</a>
         </h2>
       </div>
     </header>

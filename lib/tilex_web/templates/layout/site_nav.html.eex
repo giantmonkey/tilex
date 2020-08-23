@@ -13,14 +13,13 @@
       <%= link("?", to: "#", class: "site_nav__link", aria_label: "About TIL") %>
       <div class="site_nav__toggle">
         <div class="copy">
-          This "Today I Learned" is a knowledge sharing hub for the coders at <a href="https://giantmonkey.de">Giant Monkey</a>
-          It's based on the open-source project by <a href="https://hashrocket.com">Hashrocket</a>
+          <p>
+            This "Today I Learned" is a knowledge sharing hub for the coders at <a href="https://giantmonkey.de">Giant Monkey</a>.<br/>
+            It's based on the open-source project by <a href="https://hashrocket.com">Hashrocket</a>
+          </p>
           <ul class="social">
             <li>
               <%= link("/#{Application.get_env(:tilex, :default_twitter_handle)}", to: "https://twitter.com/#{Application.get_env(:tilex, :default_twitter_handle)}", class: "social_twitter") %>
-            </li>
-            <li>
-              <%= link("Giant Monkey GmbH", to: "https://giantmonkey.de") %>
             </li>
           </ul>
         </div>
@@ -32,9 +31,6 @@
       <% else %>
         <%= link("Statistics", to: stats_path(@conn, :index), class: "site_nav__link") %>
       <% end %>
-    </li>
-    <li class="site_nav__newsletter">
-      <%= link("Newsletter", to: "https://www.getrevue.co/profile/til/", class: "site_nav__link") %>
     </li>
     <li class="site_nav__surprise_me">
       <%= link("Surprise Me", to: post_path(@conn, :random), class: "site_nav__link", rel: "nofollow") %>

@@ -152,7 +152,6 @@ or [join our team][join-us], don't hesitate to get in touch.
 [erlang]: https://www.erlang.org/
 [fork]: https://help.github.com/articles/fork-a-repo/
 [hashrocket]: https://hashrocket.com/
-[hire-us]: https://hashrocket.com/contact-us/hire-us
 [hr-til]: https://github.com/hashrocket/hr-til
 [join-us]: https://hashrocket.com/contact-us/jobs
 [mit]: http://www.opensource.org/licenses/MIT
